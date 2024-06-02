@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vidit-p.github.io/static/css/main.670ec957.css",
+    "main.js": "/vidit-p.github.io/static/js/main.a07f32c3.js",
+    "static/js/453.253ccfac.chunk.js": "/vidit-p.github.io/static/js/453.253ccfac.chunk.js",
+    "static/media/Picture1.jpg": "/vidit-p.github.io/static/media/Picture1.f36d66385a116bbc1fcb.jpg",
+    "index.html": "/vidit-p.github.io/index.html",
+    "main.670ec957.css.map": "/vidit-p.github.io/static/css/main.670ec957.css.map",
+    "main.a07f32c3.js.map": "/vidit-p.github.io/static/js/main.a07f32c3.js.map",
+    "453.253ccfac.chunk.js.map": "/vidit-p.github.io/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.670ec957.css",
+    "static/js/main.a07f32c3.js"
+  ]
+}
