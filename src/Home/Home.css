@@ -1,0 +1,57 @@
+/* HomePage.css */
+
+/* Outermost container */
+.home-container {
+    background-image: url('../Assets/Picture1.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-repeat: no-repeat; /* Ensure the image isn't repeated */
+    background-size: cover; /* Cover the entire container */
+    background-position: center;
+    width: 100%; /* Ensures the container spans the entire width */
+    height: 100vh; /* Ensures the container spans the entire height of the viewport */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text inside the container */
+}
+
+/* Header styling */
+.home-container h1 {
+    font-size: 4rem; /* Adjust the font size */
+    color: white; /* Set the text color to white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow to the text */
+    margin: 0; /* Remove default margin */
+    padding: 0.5rem 1rem; /* Add some padding */
+    border-radius: 10px; /* Round the corners */
+}
+
+.home-container p {
+    font-size: 1.5rem; /* Adjust the font size */
+    color: whitesmoke; /* Set the text color to white */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a subtle shadow to the text */
+    margin: 10px 0 0; /* Add some margin to separate it from the header */
+    padding: 0.5rem 1rem; /* Add some padding */
+    border-radius: 10px; /* Round the corners */
+}
+
+/* Social links styling */
+.social-links {
+    margin-top: 20px; /* Add some space above the icons */
+}
+
+.social-links a {
+    color: white; /* Set the icon color to white */
+    margin: 0 10px; /* Add some spacing between the icons */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.social-links a:hover {
+    color: #0077b5; /* Change color on hover for LinkedIn */
+}
+
+.social-links a:nth-child(1):hover {
+    color: #333; /* Change color on hover for GitHub */
+}
+
+.social-links a:nth-child(2):hover {
+    color: #D44638; /* Change color on hover for Email */
+}

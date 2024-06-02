@@ -1,0 +1,181 @@
+/* Projects.css */
+
+/* Outermost container */
+.projects-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #ffffff; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+    padding-top: 5%;
+}
+
+.projects-container h1 {
+    font-size: 3rem; /* Adjust the font size */
+    color: rgb(245, 162, 20); /* Light text color */
+    margin: 0 0 2rem 0; /* Margin below the header */
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem; /* Reduced gap between cards */
+    width: 95%;
+}
+
+.project-card {
+    background-color: #333;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 28%; /* Reduced width */
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure even spacing */
+    padding: 1rem; /* Reduced padding */
+    min-height: 30%; /* Set a minimum height */
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    background-color: #cccccc;
+}
+
+.project-card:hover .project-icon {
+    color: #333; /* Icon color */
+    font-size: 0.7rem;
+    margin-top: 0.8rem;
+    padding-left: 1rem;
+}
+
+
+.project-icon {
+    color: white; /* Icon color */
+    font-size: 0.7rem;
+    margin-top: 0.8rem;
+    padding-left: 1rem;
+}
+
+
+.project-content {
+    padding: 0.5rem; /* Reduced padding */
+    text-align: left;
+    flex-grow: 1; /* Allow it to grow to fill available space */
+}
+
+.project-content h3 {
+    font-size: 1.2rem; /* Reduced font size */
+    color: rgb(232, 221, 201);
+    margin-bottom: 0.2rem;
+}
+
+.project-card:hover .project-content h3 {
+    font-size: 1.2rem; /* Reduced font size */
+    color: #333333;
+    margin-bottom: 0.2rem;
+}
+
+.project-content p {
+    font-size: 1rem; /* Reduced font size */
+    color: #cccccc;
+    line-height: 1.4;
+    margin-bottom: 0.2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Number of lines before truncating */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.project-card:hover .project-content p {
+    font-size: 1rem; /* Reduced font size */
+    color: #5b5a5a;
+    line-height: 1.4;
+    margin-bottom: 0.2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Number of lines before truncating */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.project-content p.expanded {
+    -webkit-line-clamp: unset; /* Remove line clamping */
+    display: block; /* Ensure display is block */
+}
+
+button {
+    background: none;
+    border: none;
+    color: #cccccc;
+    cursor: pointer;
+    padding: 0;
+    margin: 0rem 0;
+}
+
+button:hover {
+    color: white;
+}
+
+.github-icon {
+    font-size: 2rem; /* Reduced font size */
+    color: #cccccc;
+    text-decoration: none;
+    padding: 0.4rem 0.8rem; /* Reduced padding */
+    transition: background-color 0.3s, color 0.3s;
+    align-self: flex-end; /* Align GitHub icon to the bottom */
+}
+
+
+.project-card:hover .github-icon {
+    font-size: 2rem; /* Reduced font size */
+    color: #333;
+    text-decoration: none;
+    padding: 0.4rem 0.8rem; /* Reduced padding */
+    transition: background-color 0.3s, color 0.3s;
+    align-self: flex-end; /* Align GitHub icon to the bottom */
+}
+
+.github-icon:hover {
+    color: #666;
+}
+
+.tags {
+    margin: 0.5rem 0; /* Margin around tags section */
+}
+
+.tag {
+    background-color: #444;
+    color: #fff;
+    padding: 0.3rem 0.6rem; /* Adjusted padding */
+    border-radius: 5px;
+    margin: 0.2rem; /* Margin around each tag */
+    display: inline-block;
+    font-size: 0.8rem; /* Adjusted font size */
+}
+
+.website-button {
+    background-color: #444;
+    color: #ffffff;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin: 0.2rem 0; /* Margin around the button */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.website-button:hover {
+    background-color: #666;
+    color: #ffffff;
+}

@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0); /* Change the alpha value to adjust transparency */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 9%; /* Set a fixed height for the navbar */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Add a 1px solid white line at the bottom with 50% transparency */
+    transition: background-color 0.3s ease, top 0.3s ease;
+}
+
+.navbar.hidden {
+    top: -100px; /* Move navbar out of view */
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox to arrange links in a row */
+}
+
+.navbar-links li {
+    margin: 0 15px; /* Add some spacing between the links */
+}
+
+.navbar-links li a {
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar-links li.active a {
+    color: rgb(245, 162, 20);
+}
