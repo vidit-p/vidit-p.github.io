@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profileImage from '../Assets/Picture1.jpg'; // Replace with the correct path to your profile image
+import profileImage from '../Assets/me.jpg'; // Replace with the correct path to your profile image
 
 const skillsData = [
     { name: 'JavaScript/React', level: 90 },
