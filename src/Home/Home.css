@@ -2,7 +2,7 @@
 
 /* Outermost container */
 .home-container {
-    background-image: url('../Assets/Picture1.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-image: url('../Assets/Picture11.jpg'); /* Replace 'background-image.jpg' with the path to your image */
     background-repeat: no-repeat; /* Ensure the image isn't repeated */
     background-size: cover; /* Cover the entire container */
     background-position: center;
