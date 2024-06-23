@@ -10,11 +10,6 @@ const Contact = () => {
       <p>Let me get to know more about you.</p>
       <div className="contact-details">
         <div className="contact-item">
-          <FaMapMarkerAlt size={50} className="contact-icon" />
-          <h4>Where to find me</h4>
-          <p>23950 Watercrest Ct.<br/>Farmington Hills, MI<br/>48336 US</p>
-        </div>
-        <div className="contact-item">
           <FaEnvelope size={50} className="contact-icon" />
           <h4>Email Me At</h4>
           <p>pate1759@purdue.edu</p>

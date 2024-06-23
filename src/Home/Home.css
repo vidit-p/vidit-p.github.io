@@ -2,6 +2,7 @@
 
 /* Outermost container */
 .home-container {
+    position: relative;
     background-image: url('../Assets/Picture11.jpg'); /* Replace 'background-image.jpg' with the path to your image */
     background-repeat: no-repeat; /* Ensure the image isn't repeated */
     background-size: cover; /* Cover the entire container */
@@ -12,6 +13,8 @@
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     text-align: center; /* Center text inside the container */
+    transition: opacity 0.5s ease; /* Example transition */
+    z-index: 1;
 }
 
 /* Header styling */
