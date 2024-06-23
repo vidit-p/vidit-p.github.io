@@ -44,3 +44,10 @@ html {
 .navbar-links li.active a {
     color: rgb(245, 162, 20);
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    
+}

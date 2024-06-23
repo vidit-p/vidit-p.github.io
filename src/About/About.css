@@ -135,3 +135,49 @@ li h6 {
     letter-spacing: 1px;
     margin-bottom: 0.1rem;
 }
+
+@media (max-width: 768px) {
+    .about-container {
+        padding-top: 10%; /* Increase top padding for better spacing */
+    }
+
+    .introduction {
+        flex-direction: column; /* Stack profile image and text vertically */
+        text-align: center; /* Center align text on mobile */
+        margin-bottom: 1.5rem; /* Increase margin bottom for spacing */
+    }
+
+    .profile-image {
+        margin: 0 auto 1rem; /* Center align and reduce bottom margin */
+    }
+
+    .details {
+        width: 100%; /* Full width on mobile */
+        flex-direction: column; /* Stack details vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .profile-section, .hobbies-section {
+        width: 100%; /* Full width on mobile */
+        padding: 0; /* Remove padding */
+        margin-bottom: 1.5rem; /* Increase margin bottom for spacing */
+    }
+
+    .profile-section h5, .hobbies-section h5 {
+        text-align: center; /* Center align headers on mobile */
+        margin-bottom: 1rem; /* Adjust margin bottom */
+    }
+
+    .skills-section {
+        width: 100%; /* Full width on mobile */
+        margin-top: 1.5rem; /* Increase margin top for spacing */
+    }
+
+    .skill {
+        margin-bottom: 1rem; /* Adjust margin bottom */
+    }
+
+    .skill-bar {
+        margin-right: 0; /* Remove right margin */
+    }
+}

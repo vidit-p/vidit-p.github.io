@@ -193,3 +193,34 @@ button:hover {
     background-color: #666;
     color: #ffffff;
 }
+
+/* Media query for screens narrower than 768px (mobile devices) */
+@media (max-width: 768px) {
+    .projects-container {
+        padding-top: 10%; /* Increase top padding for better spacing */
+    }
+
+    .projects-grid {
+        gap: 1rem; /* Further reduce gap between cards on mobile */
+    }
+
+    .project-card {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .project-content h3 {
+        font-size: 1.1rem; /* Adjusted font size */
+    }
+
+    .project-content p {
+        font-size: 0.9rem; /* Adjusted font size */
+    }
+
+    .tags {
+        text-align: center; /* Center align tags on mobile */
+    }
+
+    .github-icon {
+        align-self: center; /* Center align GitHub icon on mobile */
+    }
+}
